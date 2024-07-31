@@ -1,0 +1,1 @@
+ /home/liro/Dev/VScode/studies/.dart_tool/flutter_build/de8cdb8f517331421b946edece6b3a22/native_assets.yaml: 
