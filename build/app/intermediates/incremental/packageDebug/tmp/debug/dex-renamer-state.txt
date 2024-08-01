@@ -1,4 +1,4 @@
-#Wed Jul 31 11:59:46 BRT 2024
+#Thu Aug 01 09:42:38 BRT 2024
 base.0=/home/liro/Dev/VScode/studies/build/app/intermediates/dex/debug/mergeExtDexDebug/classes.dex
 base.1=/home/liro/Dev/VScode/studies/build/app/intermediates/dex/debug/mergeProjectDexDebug/0/classes.dex
 base.2=/home/liro/Dev/VScode/studies/build/app/intermediates/dex/debug/mergeProjectDexDebug/1/classes.dex
