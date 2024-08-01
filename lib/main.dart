@@ -18,9 +18,12 @@ class MyApp extends StatelessWidget {
         backgroundColor: Color.fromARGB(97, 70, 70, 70),
         appBar: AppBar(
           centerTitle: true,
-          title: const Text ("I'm Just Training"),
+          title: const Text("I'm Just Training"),
           backgroundColor: Colors.black,
           foregroundColor: Colors.amberAccent,
+        ),
+        drawer: Drawer(
+          backgroundColor: Color.fromARGB(255, 70, 70, 70),
         ),
         bottomNavigationBar: BottomNavigationBar(
           items: const <BottomNavigationBarItem>[
@@ -55,10 +58,18 @@ class MyApp extends StatelessWidget {
               style: TextStyle(
                 color: Colors.amberAccent,
                 fontSize: 35,
-                ),
+              ),
               textAlign: TextAlign.center,
             ),
           ),
+        ),
+        floatingActionButton: FloatingActionButton(
+          child: Icon(Icons.add),
+          backgroundColor: Colors.amberAccent,
+
+          onPressed: () {
+            print('You pressed the button 🤯');
+          },
         ),
       ),
     );
